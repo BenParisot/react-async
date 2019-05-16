@@ -4,11 +4,11 @@ import Styles from '../main.css';
 
 export default function Quote({ character, quote, image }) {
   return (
-    <section className={Styles.quote}>
+    <ul className={Styles.quote}>
       <li>{character}</li>
       <li>{quote}</li>
       <li>{image}</li>
-    </section>
+    </ul>
   );
 }
 Quote.propTypes = {
