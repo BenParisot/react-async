@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Styles from '../main.css';
 
-export default function Character({ name, status, species, image }) {
+export default function Character({ name, status, species, image, id }) {
   return (
     <ul className={Styles.quote}>
       <li>{name}</li>
@@ -16,5 +16,6 @@ Character.propTypes = {
   name: PropTypes.string.isRequired,
   status: PropTypes.string.isRequired,
   species: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired
+  image: PropTypes.string.isRequired,
+  id: PropTypes.number.isRequired
 };
