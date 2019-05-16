@@ -5,9 +5,9 @@ import Styles from '../main.css';
 export default function Character({ name, status, species, image }) {
   return (
     <ul className={Styles.quote}>
-      <li>{name}</li>
-      <li>{status}</li>
-      <li>{species}</li>
+      <li>Name: {name}</li>
+      <li>Status: {status}</li>
+      <li>Species: {species}</li>
       <li>{image}</li>
     </ul>
   );

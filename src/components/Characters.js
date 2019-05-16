@@ -5,7 +5,7 @@ import Styles from '../main.css';
 
 export default function Characters({ characters }) {
   const charactersList = characters.map(character => {
-    return <Character key={character.id} name={character.name} status={character.status} species={character.image} id={character.id} />;
+    return <Character key={character.id} name={character.name} status={character.status} species={character.species} image={character.image} id={character.id} />;
   });
 
   return (
