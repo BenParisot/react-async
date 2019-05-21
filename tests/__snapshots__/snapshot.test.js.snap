@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote component displays a quote 1`] = `
+<ul
+  className="quote"
+>
+  <li>
+    Bender
+  </li>
+  <li>
+    Bite my shiny metal ass!
+  </li>
+  <li>
+    img/bender.png
+  </li>
+</ul>
+`;
