@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character component displays a character 1`] = `
+<ul
+  className="quote"
+>
+  <li>
+    Name: 
+    Rick
+  </li>
+  <li>
+    Status: 
+    alive
+  </li>
+  <li>
+    Species: 
+    human
+  </li>
+  <li>
+    img/rick.png
+  </li>
+</ul>
+`;
